@@ -1,0 +1,29 @@
+.wrapper {
+  margin: 2rem 0;
+}
+
+.wrapper span {
+  display: inline-block;;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.transaction-table {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+@media all and (min-width: 360px) {
+  .transaction-table {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+
+  .wrapper span {
+    max-width: 30rem;
+    margin: 0 auto 1rem auto;
+    text-align: left;
+  }
+
+}

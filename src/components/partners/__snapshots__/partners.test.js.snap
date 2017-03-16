@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Partners component renders as expected in homepage 1`] = `
+<section
+  className="section section-tertiary"
+>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="container centered"
+    >
+      <h1>
+        Our partners:
+      </h1>
+      <ul>
+        <li
+          className="partnerItem"
+        >
+          <img
+            alt=""
+            src={Object {}}
+          />
+        </li>
+        <li
+          className="partnerItem"
+        >
+          <img
+            alt=""
+            src={Object {}}
+          />
+        </li>
+        <li
+          className="partnerItem"
+        >
+          <img
+            alt=""
+            src={Object {}}
+          />
+        </li>
+        <li
+          className="partnerItem"
+        >
+          <img
+            alt=""
+            src={Object {}}
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,41 @@
+.error {
+  box-shadow: 0 0 0.4rem 0.2rem red;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+input {
+  border: 0;
+}
+
+input {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  padding: 0.8rem;
+  transition: box-shadow 0.3s;
+}
+
+input[type='text']:focus {
+  outline: none;
+  box-shadow: 0 0 0.4rem 0.2rem var(--ter-blue-color);
+}
+
+input[type='submit'] {
+  color: white;
+}
+
+@media all and (min-width: 360px) {
+  input {
+    width: 45%;
+  }
+}

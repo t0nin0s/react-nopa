@@ -1,0 +1,47 @@
+.header {
+  height: 4rem;
+}
+
+.logo {
+  float: left;
+  width: auto;
+  height: 100%;
+}
+
+.logInButton {
+  float: right;
+  height: 100%;
+  padding-right: 1.2rem;
+
+  display: table;
+}
+
+.vCenterItems{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media all and (min-width: 360px) {
+  .header {
+    background-color: var(--prim-blue-color);
+  }
+
+  .logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 85%;
+    padding-left: 2.5rem;
+  }
+
+  .logo-home {
+    position: absolute;
+    z-index: 1;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3rem;
+    padding: 0;
+  }
+
+}

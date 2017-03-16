@@ -1,0 +1,27 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.details {
+  float: left;
+  width: 50%;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+@media all and (min-width: 360px) {
+  .container {
+    width: 20rem;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+  }
+}

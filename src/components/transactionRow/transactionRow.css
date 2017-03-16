@@ -1,0 +1,22 @@
+.transaction {
+  overflow: hidden;
+
+  color: #6b6b6b;
+  padding: 0 0.5rem;
+  line-height: 3rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.description {
+  float: left;
+  width: 50%;
+
+  text-align: left;
+}
+
+.amount {
+  float: left;
+  width: 50%;
+
+  text-align: right;
+}

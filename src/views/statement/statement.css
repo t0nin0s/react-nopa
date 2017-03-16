@@ -1,0 +1,23 @@
+.desktop-only {
+  display: none;
+}
+
+.button {
+  width: 95%;
+}
+
+@media all and (min-width: 360px) {
+  .container {
+    width: 95%;
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+
+  .desktop-only {
+    display: block;
+  }
+
+  .button {
+    width: 45%;
+  }
+}

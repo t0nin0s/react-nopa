@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionsTable component renders as expected 1`] = `
+<div
+  className="wrapper"
+>
+  <span>
+    Your transactions for the last 30 days
+  </span>
+  <div
+    className="transactionTable"
+  >
+    <TransactionCategoryRow
+      category="Today"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+    <TransactionCategoryRow
+      category="22 November 2016"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+    <TransactionCategoryRow
+      category="21 November 2016"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+    <TransactionCategoryRow
+      category="20 November 2016"
+    />
+    <TransactionRow
+      amount="35.98"
+      description="Tesco"
+      type="OUT"
+    />
+  </div>
+</div>
+`;

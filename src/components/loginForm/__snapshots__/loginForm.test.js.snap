@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Form tests LoginForm component renders as expected in homepage 1`] = `
+<div>
+  <div
+    className="hidden"
+    id="error"
+  >
+    There are errors, please check
+  </div>
+  <form
+    method="post"
+    onSubmit={[Function]}
+  >
+    <input
+      className=""
+      id="surname"
+      name="surname"
+      onChange={[Function]}
+      placeholder="Surname"
+      type="text"
+      value=""
+    />
+    <input
+      className=""
+      id="sortcode"
+      name="sortcode"
+      onChange={[Function]}
+      placeholder="Sort Code"
+      type="text"
+      value=""
+    />
+    <input
+      className=""
+      id="account"
+      name="account"
+      onChange={[Function]}
+      placeholder="Account Number"
+      type="text"
+      value=""
+    />
+    <input
+      className=""
+      id="passcode"
+      name="passcode"
+      onChange={[Function]}
+      placeholder="Passcode"
+      type="text"
+      value=""
+    />
+    <input
+      className=""
+      id="memorable"
+      name="memorable"
+      onChange={[Function]}
+      placeholder="Memorable"
+      type="text"
+      value=""
+    />
+    <input
+      className="button"
+      type="submit"
+      value="Log in & connect"
+    />
+  </form>
+</div>
+`;

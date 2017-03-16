@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statement component renders as expected 1`] = `
+<Layout>
+  <div
+    className="statement"
+  >
+    <div
+      className="content"
+    >
+      <section
+        className="section section--primary"
+      >
+        <div
+          className="container centered"
+        >
+          <h1
+            className="desktopOnly section__h1"
+          >
+            Which bank does this account belong to?
+          </h1>
+          <p
+            className="desktopOnly section__p"
+          >
+            Track of all your payments by connecting as
+                          many bank accounts as you'd like to your
+                          NOPA account and get updates your balance
+                          instantly. Plus it's free.
+          </p>
+          <AccountDetail />
+          <TransactionsTable
+            transactions={
+              Array [
+                Object {
+                  "amount": "35.98",
+                  "date": "Today",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+                Object {
+                  "amount": "35.98",
+                  "date": "Today",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+                Object {
+                  "amount": "35.98",
+                  "date": "Today",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+                Object {
+                  "amount": "35.98",
+                  "date": "22 November 2016",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+                Object {
+                  "amount": "35.98",
+                  "date": "22 November 2016",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+                Object {
+                  "amount": "35.98",
+                  "date": "21 November 2016",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+                Object {
+                  "amount": "35.98",
+                  "date": "21 November 2016",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+                Object {
+                  "amount": "35.98",
+                  "date": "20 November 2016",
+                  "description": "Tesco",
+                  "type": "OUT",
+                },
+              ]
+            }
+          />
+          <a
+            className="button button"
+            href="#"
+          >
+            Show More
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+</Layout>
+`;

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChooseBank component renders as expected 1`] = `
+<Layout>
+  <div
+    className="content"
+  >
+    <section
+      className="section section--primary"
+    >
+      <div
+        className="container centered"
+      >
+        <h1
+          className="section__h1"
+        >
+          Which bank does this account belong to?
+        </h1>
+        <p
+          className="mobile-only"
+        >
+          Choose your bank
+        </p>
+        <p
+          className="section__p desktop-only"
+        >
+          Track of all your payments by connecting as
+                      many bank accounts as you'd like to your
+                      NOPA account and get updates your balance
+                      instantly. Plus it's free.
+        </p>
+        <div
+          className="two-columns"
+        >
+          <div
+            className="column"
+          >
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt=""
+                className="img-wrapper__img"
+                src={Object {}}
+              />
+            </div>
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt=""
+                className="img-wrapper__img"
+                src={Object {}}
+              />
+            </div>
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt=""
+                className="img-wrapper__img"
+                src={Object {}}
+              />
+            </div>
+          </div>
+          <div
+            className="column"
+          >
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt=""
+                className="img-wrapper__img"
+                src={Object {}}
+              />
+            </div>
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt=""
+                className="img-wrapper__img"
+                src={Object {}}
+              />
+            </div>
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt=""
+                className="img-wrapper__img"
+                src={Object {}}
+              />
+            </div>
+          </div>
+          <Link
+            className="button button--fullWidth"
+            replace={false}
+            to="/statement"
+          >
+            Get started
+          </Link>
+        </div>
+      </div>
+    </section>
+    <Partners />
+  </div>
+</Layout>
+`;

@@ -1,0 +1,25 @@
+.wrapper {
+  width: 100%;
+  background-color: var(--ter-blue-color);
+}
+.footer {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 13px;
+  line-height: 21px;
+
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media all and (min-width: 360px) {
+  .footer {
+    width: 80%;
+  }
+}

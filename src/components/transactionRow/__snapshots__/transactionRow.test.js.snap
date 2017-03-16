@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionRow component renders as expected 1`] = `
+<div
+  className="transaction"
+>
+  <div
+    className="description"
+  />
+  <div
+    className="amount"
+  >
+    £
+  </div>
+</div>
+`;

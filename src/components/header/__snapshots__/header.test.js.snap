@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders as expected 1`] = `
+<header
+  className="header"
+>
+  <Link
+    replace={false}
+    to="/"
+  >
+    <img
+      className="logo"
+      src={Object {}}
+    />
+  </Link>
+  <div
+    className="logInButton"
+  >
+    <div
+      className="vCenterItems"
+    >
+      <Link
+        className="button buttonHeader"
+        replace={false}
+        to="/login"
+      >
+        Log in
+      </Link>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Header component renders as expected in homepage 1`] = `
+<header
+  className="header"
+>
+  <Link
+    replace={false}
+    to="/"
+  >
+    <img
+      className="logo logoHome"
+      src={Object {}}
+    />
+  </Link>
+  <div
+    className="logInButton"
+  >
+    <div
+      className="vCenterItems"
+    >
+      <Link
+        className="button buttonHeader"
+        replace={false}
+        to="/login"
+      >
+        Log in
+      </Link>
+    </div>
+  </div>
+</header>
+`;
